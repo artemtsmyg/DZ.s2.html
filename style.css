@@ -8,11 +8,39 @@ a {
   line-height: 20px;
 }
 
+.links :hover {
+  color: crimson;
+}
+
 .headers {
   color: #222222;
   font-size: 28px;
   line-height: 36px;
   font-weight: bold;
+}
+
+.images {
+  border-radius: 50%;
+  /* width: 100px; */
+  /* height: 100px; */
+  background-color: rgb(144, 235, 144);
+  border: #5a14d3 double 4px;
+  transform: scale(1.05);
+  box-shadow: 15px 15px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 600ms, transform 600ms;
+}
+
+h1 {
+  color: #16b343;
+}
+
+.zogo2 {
+  color: rgb(173, 12, 18);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .paragr {
@@ -22,12 +50,4 @@ a {
   line-height: 30px;
   color: #5a14d3;
   background-color: rgb(34, 162, 83);
-}
-
-.zogo2 {
-  color: rgb(173, 12, 18);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 80px;
 }
